@@ -13,9 +13,9 @@ public class profileController {
         return new ModelAndView("main");
     }
 
-    @RequestMapping("test")
+    @RequestMapping("jhm")
     public ModelAndView test() {
-        return new ModelAndView("test");
+        return new ModelAndView("jhm");
     }
 
 }
